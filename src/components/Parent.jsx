@@ -22,4 +22,4 @@ const Parent = () => {
     )
 }
 
-export default React.memo(Parent)
+export default Parent
