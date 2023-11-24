@@ -1,9 +1,9 @@
 import React from 'react'
-import Parent from './components/Parent'
+import Parent from './components1/Parent'
 const App = () => {
   return (
     <div>
-   <Parent/>
+   <Parent />
     </div>
   )
 }

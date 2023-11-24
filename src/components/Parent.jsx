@@ -1,6 +1,5 @@
-import React, { useState,useCallback } from 'react'
+import React, { useState } from 'react'
 import Child from './Child';
-import Title from './Title';
 const Parent = () => {
     const [parentCnt, setParentCnt] = useState(0);
     const [childCnt, setChildCnt] = useState(0);
@@ -13,7 +12,6 @@ const Parent = () => {
     console.log("Parent Component rendering")
     return (
         <div >
-            <Title/>
             <label>Parent Counter: </label>
             {parentCnt}
             <button onClick={increaseParent}>Parent Button</button>
